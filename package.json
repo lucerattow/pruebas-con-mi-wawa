@@ -1,7 +1,6 @@
 {
   "name": "pruebas-con-mi-wawa",
   "version": "1.0.0",
-  "description": "",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,9 @@
   "bugs": {
     "url": "https://github.com/lucerattow/pruebas-con-mi-wawa/issues"
   },
-  "homepage": "https://github.com/lucerattow/pruebas-con-mi-wawa#readme"
+  "homepage": "https://github.com/lucerattow/pruebas-con-mi-wawa#readme",
+  "description": "",
+  "dependencies": {
+    "sass": "^1.49.9"
+  }
 }
