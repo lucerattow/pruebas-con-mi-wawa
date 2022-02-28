@@ -1,12 +1,9 @@
 .tabla_efecto {
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-wrap: wrap;
-	flex-wrap: wrap;
-	-webkit-justify-content: center;
-	justify-content: center;
-	width: 100%;
-	margin: 0 auto 3em;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto 3em;
 }
 
 .tabla_efecto__item {
@@ -18,19 +15,8 @@
 	-webkit-align-items: stretch;
 	align-items: stretch;
 	text-align: center;
-	width: 200px;
-}
-
-.tabla_efecto__item_desc {
-	position: relative;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-direction: column;
-	flex-direction: column;
-	-webkit-align-items: stretch;
-	align-items: stretch;
-	text-align: center;
-	width: calc(100% - 400px -3em);
+	-webkit-flex: 0 1 330px;
+	flex: 0 1 330px;
 }
 
 .tabla_efecto__feature-list {
@@ -48,8 +34,9 @@
 }
 
 
-.tabla_efecto__item {
 
+ .tabla_efecto__item {
+	
 	color: #382628;
 	background: #fff;
 	cursor: default;
@@ -63,6 +50,7 @@
 	margin: 0.5em 0 0;
 	padding: 1em;
 	border-bottom: 1px solid #382628;
+	
 }
 
  .icon {
@@ -70,7 +58,7 @@
 	min-width: 2em;
 }
 
-
+ 
  .tabla_efecto__item--featured .tabla_efecto__price::after {
 	background: url(../img/stamp.png);
 	background-size: cover;
@@ -101,21 +89,21 @@
 	padding: 1em;
 	font-size: 1.1em;
 /*	border-bottom: 1px solid #382628;*/
-
+	
 }
 #img {
-
+	
 		width: auto;
 		height: 14px;
 		text-align: center;
-
+	
 	}
 	#img_logo {
-
+	
 		width: auto;
-		height: 15px;
+		height: 58px;
 		text-align: center;
-
+	
 	}
  .tabla_efecto__feature-list {
 	font-size: 0.85em;
@@ -123,27 +111,24 @@
 	letter-spacing: 0;
 	padding: 0 1em 2.5em 4em;
 	list-style-type: square;
-
 }
 
-
+ 
 .TA-div-container {
 	display:none;
 	}
-
 	#contenedor {
 		text-align: left;
 		width: 95%;
 		margin: auto;
-
 	   }
-
+	   
 	   #lateral {
 		width: 20%;  /* Este será el ancho que tendrá tu columna */
 		background-color: #CCCCCC;  /* Aquí pon el color del fondo que quieras para este lateral */
 		float:right; /* Aquí determinas de lado quieres quede esta "columna" */
 	   }
-
+	   
 	   #principal {
 		width: 75%;
 		float: left;
@@ -167,7 +152,7 @@
 	}
 
 	}
-
+	
 	@media only screen and (max-width: 1023px) {
     /*Que no se visualice el div*/
 	.TA-container {
@@ -181,33 +166,34 @@
 		display: -webkit-flex;
 		display: flex;
 	}
-
+	
 	.flexbox-contenedor > div {
 		width: 50%;
 	  background: #fff;
 	}
-
-
+	
+	
 	#img {
-
+		
 	  width: auto;
 	  height: 14px;
 	  text-align: center;
-
+	
 	}
 	#img_logo2 {
-
+		
 	  width: auto;
 	  height: auto;
 	  text-align: center;
-
+	
 	}
 	.img_mas {
-
-	  width: 10px;
-	  height: auto;
+		
+		width: 18px;
+		height: auto;
+		margin: 5px;
 	  text-align: right !important;
-
+	
 	}
 	.prr {
 	  overflow: hidden;
@@ -218,7 +204,7 @@
 	  transition: all 0.2s ease-in;
 	  margin: 0;
 	}
-
+	
 	.enl {
 	  text-decoration: none;
 	  display: block;
@@ -229,9 +215,9 @@
 	  border-bottom: 2px solid gray;
 	  color: #212121;
 	}
-
+	
 	section:target p {
 	  padding: 10px 8px 53px 10px;
 	  max-width: auto;
 	}
-
+	

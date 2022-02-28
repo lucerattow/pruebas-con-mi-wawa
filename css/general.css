@@ -2,7 +2,7 @@
 body {
 	font-family: "opensans", opensans;
 	color: #444;
-	background: #fff;
+	background: #ebebeb;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -62,7 +62,7 @@ a:hover, a:focus {
 
 
 .Sección-9_1 {
-	background: #efb7b7;
+
 	color: #382628;
 }
 
