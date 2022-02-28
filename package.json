@@ -1,0 +1,19 @@
+{
+  "name": "pruebas-con-mi-wawa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucerattow/pruebas-con-mi-wawa.git"
+  },
+  "author": "lucas ceratto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucerattow/pruebas-con-mi-wawa/issues"
+  },
+  "homepage": "https://github.com/lucerattow/pruebas-con-mi-wawa#readme"
+}
