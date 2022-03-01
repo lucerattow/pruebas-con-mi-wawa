@@ -1,4 +1,6 @@
-# pruebas-con-mi-wawa
+# Instrucciones
+
+abrir el archivo index.html para ver el proyecto
 
 para compilar el sass usar este comando en la terminal:
 
